@@ -1,0 +1,96 @@
+.backBtn {
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  width: fit-content;
+  transition: 0.5s;
+}
+.backBtn:hover {
+  color: black;
+}
+.commentName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orangered;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  font-size: 24px;
+}
+.mainDiv {
+  background-color: maroon;
+}
+.commentInput {
+  background-color: rgb(112, 75, 75);
+  color: black;
+  margin-top: 20px;
+}
+.commDiv {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.commDiv1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.commDiv2 {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+}
+.commDiv2 p {
+  background-color: rgba(49, 49, 49, 0.445);
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.commDiv2 p:hover {
+  background-color: black;
+  color: white;
+}
+.commentSec {
+  color: white;
+  font-size: 12px;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: black;
+}
+.commentName2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 30, 255);
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  color: #fff;
+  font-size: 16px;
+}
+.eachComm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.eachCommSub {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.likeDislike {
+  display: flex;
+  margin-right: 30px;
+  gap: 20px;
+}
+.likeBtn {
+  cursor: pointer;
+}
